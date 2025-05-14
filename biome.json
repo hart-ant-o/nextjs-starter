@@ -11,7 +11,7 @@
     },
     "linter": {
         "enabled": true,
-        "ignore": ["vite-env.d.ts"],
+        "ignore": ["components/ui/**"],
         "rules": {
             "recommended": true,
             "a11y": {
@@ -159,7 +159,8 @@
             "tmp",
             "temp",
             "templates",
-            "template-*"
+            "template-*",
+            "components/ui"
         ]
     }
 }
